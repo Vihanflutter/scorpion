@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(to bottom, black 0%,#756e6e 50%,#000000 50%,#756e6e 50%,black 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width:100%;
+    height:100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+
+.nav-r a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-weight: 700;
+   
+}
+
+.nav-r a:hover {
+    color: aqua;
+    transition: .3s;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero-intro{
+    margin-left: 2rem;
+    margin-top: 9rem;
+}
+
+.hero-h {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p{
+    line-height: 1.5rem;
+    color: lightgray;
+    width: 60%;
+    font-size: 15px;
+}
+ 
+span {
+    line-height: 3rem;
+}
+
+button{
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: #000000;
+    text-transform: uppercase;
+    color: #756e6e;
+    border-radius: 30px;
+    border: none;
+}
+
+.car-space {
+    margin-top: 2rem;
+}
+
+.car-space h6 {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.car-space small {
+    letter-spacing: 2px;
+    font-weight: 400;
+}
